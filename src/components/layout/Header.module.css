@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: var(--bg-color);
+  border-bottom: 1px solid var(--surface-color-light);
+  padding: 1.5rem 0;
+  transition: all var(--transition-normal);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.accent {
+  color: var(--primary-color);
+}
+
+.navList {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink {
+  font-weight: 400;
+  font-size: 0.90rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width var(--transition-fast);
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navList {
+    display: none; /* For now, hide on mobile. We can add a burger menu later */
+  }
+}
