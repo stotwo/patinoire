@@ -11,7 +11,3 @@ Le site web a été conçu pour offrir une expérience utilisateur fluide et agr
 - **Affûtage des patins** : Présentation de notre service technique (Standard et Express).
 - **Anniversaires** : Formules de groupe (Givré, Frisson, Glaçon) pour fêter un événement sur la piste.
 - **Galerie & Historique** : Découverte des lieux en images et rétrospective depuis l'inauguration en 1973.
-
-Pensé "Mobile First", le site propose une navigation intuitive, des micro-animations élégantes et un thème visuel "Glacial" (tons sombres, accents bleutés, effets de verre dépoli/"glassmorphism").
-
----
