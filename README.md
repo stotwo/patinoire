@@ -15,5 +15,3 @@ Le site web a été conçu pour offrir une expérience utilisateur fluide et agr
 Pensé "Mobile First", le site propose une navigation intuitive, des micro-animations élégantes et un thème visuel "Glacial" (tons sombres, accents bleutés, effets de verre dépoli/"glassmorphism").
 
 ---
-
-_Ouvert d'octobre à fin mars. Préparez vos patins !_
